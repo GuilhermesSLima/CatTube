@@ -1,0 +1,84 @@
+.backButton button{
+    border: none transparent;
+    border-radius: 10px;
+    background-color: #162B38;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.esquerdaVideo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+  
+  .video-player {
+    width: 100%;
+  }
+  
+  .other-videos {
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .video-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .video-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-item:hover {
+    opacity: 0.8;
+  }
+  
+  .geralVideo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .other-videos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .textosVideo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .textoEsquerda{
+    width:60%;
+  }
+  .likeDireita button{
+    margin: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #162B38;
+    color: #fff;
+  }
+  @media (max-width: 768px) { 
+    .geralVideo{
+        flex-direction: column;
+    }
+    .esquerdaVideo{
+        width: 100%;
+    }
+    .other-videos{
+        width: 100%;
+    }
+  }

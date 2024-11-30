@@ -1,0 +1,58 @@
+{
+  "videos": [
+    {
+      "id": "Fc9e27PFIlo",
+      "title": "João e Maria - Chico Buarque",
+      "description": "Uma canção lírica que mistura romance e fantasia, narrando uma história de amor envolvente com a poesia inconfundível de Chico Buarque.",
+      "views": 18,
+      "likes": 3,
+      "dislikes": 1,
+      "uploadDate": "29/11/2024"
+    },
+    {
+      "id": "73QwEybeBjE",
+      "title": "Marlboro Nights - Lonely God",
+      "description": "Uma música indie-pop com tons melancólicos e uma atmosfera nostálgica, perfeita para refletir sobre momentos passados.",
+      "views": 6,
+      "likes": 1,
+      "dislikes": 1,
+      "uploadDate": "28/11/2024"
+    },
+    {
+      "id": "e4Ez99gCOiY",
+      "title": "Tangerina - Alceu Valença",
+      "description": "Uma celebração vibrante da simplicidade e do regionalismo nordestino, com a energia única de Alceu Valença.",
+      "views": 9,
+      "likes": 1,
+      "dislikes": 1,
+      "uploadDate": "27/11/2024"
+    },
+    {
+      "id": "v9jJGXgxNP4",
+      "title": "Girassol - Ivyson",
+      "description": "Uma música suave e tocante, que traz uma mensagem de esperança, positividade e luz para os momentos difíceis.",
+      "views": 12,
+      "likes": 1,
+      "dislikes": 1,
+      "uploadDate": "26/11/2024"
+    },
+    {
+      "id": "WzwPy8qLTKQ",
+      "title": "Acenda o Farol - Tim Maia",
+      "description": "Uma faixa com um groove irresistível e a marca do soul brasileiro, explorando temas de autoconhecimento e superação.",
+      "views": 47,
+      "likes": 4,
+      "dislikes": 2,
+      "uploadDate": "25/11/2024"
+    },
+    {
+      "id": "qU9mHegkTc4",
+      "title": "505 - Arctic Monkeys",
+      "description": "Uma balada intensa que mistura romance e melancolia, capturando a essência das emoções humanas em cada verso.",
+      "views": 10,
+      "likes": 1,
+      "dislikes": 1,
+      "uploadDate": "24/11/2024"
+    }
+  ]
+}

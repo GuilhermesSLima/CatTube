@@ -1,0 +1,62 @@
+@if (auth.isAuthenticated$|async) {
+  <div *ngIf="!showVideo; else videoContent">
+    <div class="container"> 
+      <span (click)="showVideoContent('WzwPy8qLTKQ')" class="cards">
+        <iframe src="https://www.youtube.com/embed/WzwPy8qLTKQ" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          Acenda o Farol - Tim Maia <br>
+          Um groove envolvente com a marca do soul brasileiro.
+        </h6>
+      </span>
+      <span (click)="showVideoContent('Fc9e27PFIlo')" class="cards">
+        <iframe src="https://www.youtube.com/embed/Fc9e27PFIlo" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          João e Maria - Chico Buarque <br>
+          Uma canção poética sobre amor e imaginação.
+        </h6>
+      </span>
+      <span (click)="showVideoContent('v9jJGXgxNP4')" class="cards">
+        <iframe src="https://www.youtube.com/embed/v9jJGXgxNP4" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          Girassol - Ivyson <br>
+          Uma balada esperançosa e calorosa.
+        </h6>
+      </span>
+      <span (click)="showVideoContent('e4Ez99gCOiY')" class="cards">
+        <iframe src="https://www.youtube.com/embed/e4Ez99gCOiY" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          Tangerina - Alceu Valença <br>
+          Uma homenagem vibrante à simplicidade da vida.
+        </h6>
+      </span>
+      <span (click)="showVideoContent('qU9mHegkTc4')" class="cards">
+        <iframe src="https://www.youtube.com/embed/qU9mHegkTc4" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          505 - Arctic Monkeys <br>
+          Uma melodia intensa e emocional sobre saudade.
+        </h6>
+      </span>
+      <span (click)="showVideoContent('73QwEybeBjE')" class="cards">
+        <iframe src="https://www.youtube.com/embed/73QwEybeBjE" frameborder="0" class="imgCard"></iframe>
+        <h6 class="textSpan">
+          Marlboro Nights - Lonely God <br>
+          Uma faixa alternativa cheia de nostalgia.
+        </h6>
+      </span>
+    </div>
+    
+
+    </div>
+    <ng-template #videoContent>
+  <app-video [videoId]="currentVideo" (backToHome)="showVideo = false"></app-video>
+</ng-template>
+} @else {
+  <div class="content-pai">
+<div class="main-content">
+    
+    <h2>Bem-vindo!</h2>
+    <h4>Faça login para poder acessar os <br> videos.</h4>
+
+  </div> 
+</div>
+}
